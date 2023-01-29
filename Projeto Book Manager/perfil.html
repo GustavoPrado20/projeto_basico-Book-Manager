@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Sobre Nós | BookManager</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/perfil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main class="main-menu">
+            <section class="fundo">
+                <section class="logo">
+                    <img src="./img/logo.png">
+                </section>
+
+                <section class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="https://rss.com/" target="_blank">
+                                <img src="./img/rcs.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="./img/facebook.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/login?lang=pt" target="_blank">
+                                <img src="./img/twiter.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./img/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+    </header>
+
+    <main class="coluna menu-segundario">
+        <section class="header-segundario">
+            <section class="menu">
+                <ul>
+                    <li>
+                        <a href="./home-on.html" target="_self">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./meus-livros.html" target="_self">
+                            Meus Livros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sobre-nos-on.html" target="_self">
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self">
+                            Perfil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./index.html" target="_self">
+                            Sair
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="busca">
+                <form name="busca" method="GET" action="">
+                    <input type="text" name="" placeholder="Pesquisar Livros" class="busca1" />
+                    <button type="submit" name="'enviarbusca'"><i class="fa fa-search fa-lg"></i></button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <main>
+        <section class="coluna espacamento">
+            <section class="centralizacao-titulo">
+                <h1>Perfil</h1>
+            </section>
+        </section>
+
+        <section class="coluna">
+            <section class="centralizacao">
+                <section class="estilo">
+                    <p>
+                        Nome: Gustavo Henrique
+                    </p>
+                    <p>
+                        E-mail: gustavo.henrique.igt@gmail.com
+                    </p>
+                    <p>
+                        Número: (11) 94180-9128
+                    </p>
+                </section>
+
+                <section class="estilo-2">
+                    <p>
+                        Livros: 0
+                    </p>
+                    <p>
+                        Livros Lido: 0
+                    </p>
+                    <p>
+                        Livros que desejo ler: 0
+                    </p>
+                </section>
+            </section>
+        </section>
+
+        <section class="coluna">
+            <section class="centralizacao">
+                <center>
+                    <button type="button" class="botao botao-cor-2">
+                        Alterar Informaçẽos
+                    </button>
+
+                    <button type="button" class="botao botao-cor-3">
+                        Deletar Conta
+                    </button>
+                </center>
+            </section>
+        </section>
+
+        <section id="modal-ati-perfil">
+            <section class="modal-box-ati">
+                <section class="modal-box-conteudo-ati">
+                    <section class="margin-form-ati">
+                        <h1>Alterar informaçẽos da Conta</h1>
+                        <form name="" method="GET" action="" class="form-ati">
+                            <section class="tudo-box">
+                                <label for="email-ati">E-mail</label>
+                                <input type="text" name="email-ati" placeholder="Digite o seu novo ou mesmo E-mail"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="metade-box espaco-2">
+                                <label for="nome-ati">Nome</label>
+                                <input type="text" name="nome-ati" placeholder="Digite o seu nome" autocomplete="off">
+                            </section>
+
+                            <section class="metade-box ">
+                                <label for="sobrenome-ati">Sobrenome</label>
+                                <input type="text" name="sobrenome-ati" placeholder="Digite o seu sobrenome"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="tudo-box">
+                                <label for="num-ati">Número</label>
+                                <input type="text" name="num-ati" placeholder="Digite o seu número (Opcional)"
+                                    autocomplete="off">
+                            </section>
+
+                            <input type="submit" name="" value="Alterar Informaçẽos">
+                        </form>
+                    </section>
+                </section>
+                <section class="fechar-ati">X</section>
+            </section>
+        </section>
+
+        <section id="modal-del-cont-perfil">
+            <section class="modal-box-del-cont">
+                <section class="modal-box-conteudo-del-cont">
+                    <section class="margin-form-del-cont">
+                        <h1>Deletar Conta</h1>
+                        <center>
+                            <button type="submit" name="cancelar-delet-cont" value="cancelar"
+                                class="botao-2 botao-cor-4">
+                                Cancelar
+                            </button>
+
+                            <button type="button" class="botao-2 botao-cor-5">
+                                Deletar Conta
+                            </button>
+                        </center>
+                    </section>
+                </section>
+                <section class="fechar-del-cont">X</section>
+            </section>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <main class="main-rodape">
+            <section class="corp">
+                <p>
+                    &copy; BookManager
+                </p>
+            </section>
+
+            <section class="redes-sociais-2">
+                <ul>
+                    <li>
+                        <a href="https://rss.com/" target="_blank">
+                            <img src="./img/rcs.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./img/facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/login?lang=pt" target="_blank">
+                            <img src="./img/twiter.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./img/instagram.png">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </footer>
+
+    <script type="text/javascript" src="./js/perfil.js"></script>
+
+</body>
+
+</html>

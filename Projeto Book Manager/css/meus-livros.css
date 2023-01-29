@@ -1,0 +1,749 @@
+*
+{    
+    box-sizing: border-box;
+    border: none;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul
+{
+    padding: 0px!important;
+}
+
+.menu-principal
+{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+.main-menu
+{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo
+{
+    float: left;
+    padding: 16px;
+    width: 75%;
+}
+
+.redes-sociais ul li
+{
+    margin-left: 22px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais
+{
+    width: 20%;
+    float: right;
+}
+
+.header-segundario
+{
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-segundario
+{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li 
+{
+    display: inline-block;
+   color: #8b8b8b;
+   margin-left: 15px;
+   height: 45px;
+}
+
+.menu ul li:hover
+{
+    border-bottom: 2px solid #357bef;
+}
+
+.menu ul li a:hover
+{
+    color: #257bef;
+}
+
+.menu ul li a
+{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu
+{
+    width: 70%;
+    float: left;
+}
+
+.busca
+{
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca1
+{
+    width: 190px;
+    font-size: 105%;
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: 5px;
+    border-width: 0px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #d6d6d6;
+}
+
+.busca form button
+{
+    font-size: 105%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -5px;
+    background-color: #257bef;
+    border-left: 0px;
+    border: 1px solid #d6d6d6;
+}
+
+.busca form button:hover
+{
+    cursor: pointer;
+}
+
+.coluna
+{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+
+.espaco
+{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.tabela
+{
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabela thead tr th
+{
+    border-bottom: 1px solid #257bef;
+    border-left-width: 0;
+    width: 980px;
+    height: 25px;
+}
+
+.tabela tbody tr td 
+{
+    text-align: center;
+}
+
+.tabela tfoot tr td
+{
+    border-bottom: 1px solid #257bef;
+    border-left-width: 0;
+    width: 980px;
+    height: 1px;
+}
+
+.botao
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+    float: right;
+    margin-left: 20px;
+}
+
+.botao:focus
+{
+    outline: none;
+}
+
+.botao-cor
+{
+    background-color: #188f1b;
+    color: #ffffff;
+    box-shadow: 0 5px 0 #0f5911;
+}
+
+.botao-cor:hover
+{
+    background-color: #0f5911;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 5px 0 #083309;
+}
+
+.botao-cor:active
+{
+    position: relative;
+    top: 5px;
+    border: none;
+    box-shadow: none;
+}
+
+.botao-cor-2
+{
+    background-color: #257bef;
+    color: #ffffff;
+    box-shadow: 0 5px 0 #0b57bd;
+}
+
+.botao-cor-2:hover
+{
+    background-color: #0b57bf;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 5px 0 #03449c;
+}
+
+.botao-cor-2:active
+{
+    position: relative;
+    top: 5px;
+    border: none;
+    box-shadow: none;
+}
+
+.botao-cor-3
+{
+    background-color: #f21621;
+    color: #ffffff;
+    box-shadow: 0 5px 0 #9c1017;
+}
+
+.botao-cor-3:hover
+{
+    background-color: #9c1017;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 5px 0 #610a0e;
+}
+
+.botao-cor-3:active
+{
+    position: relative;
+    top: 5px;
+    border: none;
+    box-shadow: none;
+}
+
+#modal-delet-livros
+{
+    background-color: rgb(0,0,0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.modal-box
+{
+    background-color: #ffffff;
+    width: 40%;
+    height: 330px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: -165px;
+    border-radius: 15px;
+}
+
+.fechar 
+{
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+    cursor: pointer;
+}
+
+.margin-form
+{
+    padding: 30px;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.margin-form form
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.margin-form form input, label
+{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.margin-form form input:focus, label:focus
+{
+    outline: none;
+}
+
+.margin-form h1
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.margin-form form label
+{
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.margin-form form input
+{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.margin-form form input:focus
+{
+    border-color: #f21621;
+}
+
+.margin-form form input[type="submit"]
+{
+    background-color: #f21621;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.margin-form form input[type="submit"]:hover
+{
+    background-color: #9c1017;
+    transition: .5s;
+}
+
+#agreement
+{
+    margin-right: 5px;
+    
+}
+
+#agreement, #agreement-label
+{
+    display: inline-block;
+    width: auto;
+}
+
+#agreement-label
+{
+    margin-left: -7px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#modal-add-livros
+{
+    background-color: rgb(0,0,0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.modal-box-add
+{
+    background-color: #ffffff;
+    width: 45%;
+    height: 420px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -22.5%;
+    margin-top: -220px;
+    border-radius: 15px;
+}
+
+.fechar-add
+{
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #188f1b;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #083309;
+    cursor: pointer;
+}
+
+.margin-form-add
+{
+    padding: 30px;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.margin-form-add form
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.margin-form-add form input, label
+{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.margin-form-add form input:focus, label:focus
+{
+    outline: none;
+}
+
+.margin-form-add h1
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.margin-form-add form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tudo-box
+{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.metade-box
+{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.espaco-2
+{
+    margin-right: 2.5%;
+}
+
+.margin-form-add form label
+{
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.margin-form-add form input
+{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.margin-form-add form input:focus
+{
+    border-color: #188f1b;
+}
+
+.margin-form-add form input[type="submit"]
+{
+    background-color: #188f1b;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.margin-form-add form input[type="submit"]:hover
+{
+    background-color: #0f5911;
+    transition: .5s;
+}
+
+#agreement-add
+{
+    margin-right: 5px;
+    margin-left: 30px; 
+}
+
+#agreement-add, #agreement-label-add
+{
+    display: inline-block;
+    width: auto;
+}
+
+#agreement-label-add
+{
+    margin-left: -5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#modal-ati-livros
+{
+    background-color: rgb(0,0,0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.modal-box-ati
+{
+    background-color: #ffffff;
+    width: 45%;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -22.5%;
+    margin-top: -250px;
+    border-radius: 15px;
+}
+
+.fechar-ati
+{
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #257bef;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #03449c;
+    cursor: pointer;
+}
+
+.margin-form-ati
+{
+    padding: 30px;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.margin-form-ati form
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.margin-form-ati form input, label
+{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.margin-form-ati form input:focus, label:focus
+{
+    outline: none;
+}
+
+.margin-form-ati h1
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.margin-form-ati form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.margin-form-ati form label
+{
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.margin-form-ati form input
+{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.margin-form-ati form input:focus
+{
+    border-color: #257bef;
+}
+
+.margin-form-ati form input[type="submit"]
+{
+    background-color: #257bef;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.margin-form-ati form input[type="submit"]:hover
+{
+    background-color: #0b57bd;
+    transition: .5s;
+}
+
+#agreement-ati
+{
+    margin-right: 5px;
+    margin-left: 30px; 
+}
+
+#agreement-ati, #agreement-label-ati
+{
+    display: inline-block;
+    width: auto;
+}
+
+#agreement-label-ati
+{
+    margin-left: -5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.rodape
+{
+    width: 100%;
+    background-color: #252323;
+    height: 70px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-rodape
+{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.redes-sociais-2 ul li
+{
+    margin-left: 22px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.redes-sociais-2
+{
+    width: 20%;
+    float: right;
+}
+
+.corp
+{
+    float: left;
+    bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: justify;
+    text-transform: uppercase;
+    width: 75%;
+}

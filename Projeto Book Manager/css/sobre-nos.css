@@ -1,0 +1,206 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul
+{
+    padding: 0px!important;
+}
+
+.menu-principal
+{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+.main-menu
+{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo
+{
+    float: left;
+    padding: 16px;
+    width: 75%;
+}
+
+.redes-sociais ul li
+{
+    margin-left: 22px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais
+{
+    width: 20%;
+    float: right;
+}
+
+.header-segundario
+{
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-segundario
+{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li 
+{
+    display: inline-block;
+   color: #8b8b8b;
+   margin-left: 15px;
+   height: 45px;
+}
+
+.menu ul li:hover
+{
+    border-bottom: 2px solid #357bef;
+}
+
+.menu ul li a:hover
+{
+    color: #257bef;
+}
+
+.menu ul li a
+{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu
+{
+    width: 70%;
+    float: left;
+}
+
+.busca
+{
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca1
+{
+    width: 190px;
+    font-size: 105%;
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: 5px;
+    border-width: 0px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #d6d6d6;
+}
+
+.busca form button
+{
+    font-size: 105%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -5px;
+    background-color: #257bef;
+    border-left: 0px;
+    border: 1px solid #d6d6d6;
+}
+
+.busca form button:hover
+{
+    cursor: pointer;
+}
+
+.coluna
+{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.centralizacao
+{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.centralizacao h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #323232;
+    text-align: center;
+}
+
+.centralizacao p
+{
+    color: #424141;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rodape
+{
+    width: 100%;
+    background-color: #252323;
+    height: 70px;
+    float: left;
+    position: relative;
+    bottom: 0;
+}
+
+.main-rodape
+{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+
+
+.redes-sociais-2 ul li
+{
+    margin-left: 22px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.redes-sociais-2
+{
+    width: 20%;
+    float: right;
+}
+
+.corp
+{
+    float: left;
+    bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: justify;
+    text-transform: uppercase;
+    width: 75%;
+}

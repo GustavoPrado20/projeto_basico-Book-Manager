@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Meus Livros | BookManager</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/meus-livros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main class="main-menu">
+            <section class="fundo">
+                <section class="logo">
+                    <img src="./img/logo.png">
+                </section>
+
+                <section class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="https://rss.com/" target="_blank">
+                                <img src="./img/rcs.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="./img/facebook.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/login?lang=pt" target="_blank">
+                                <img src="./img/twiter.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./img/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+    </header>
+
+    <main class="coluna menu-segundario">
+        <section class="header-segundario">
+            <section class="menu">
+                <ul>
+                    <li>
+                        <a href="./home-on.html" target="_self">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./meus-livros.html" target="_self">
+                            Meus Livros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sobre-nos-on.html" target="_self">
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./perfil.html" target="_self">
+                            Perfil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./index.html" target="_self">
+                            Sair
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="busca">
+                <form name="busca" method="GET" action="">
+                    <input type="text" name="" placeholder="Pesquisar Livros" class="busca1" />
+                    <button type="submit" name="'enviarbusca'"><i class="fa fa-search fa-lg"></i></button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <main>
+        <section class="coluna">
+            <section class="espaco">
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                <h1>Livros Que Possuo</h1>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                Código
+                            </th>
+
+                            <th>
+                                Titulo
+                            </th>
+
+                            <th>
+                                Gênero
+                            </th>
+
+                            <th>
+                                Autor
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </section>
+
+        <section class="coluna">
+            <section class="espaco">
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                <h1>Livros Que Já Li</h1>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                Código
+                            </th>
+
+                            <th>
+                                Titulo
+                            </th>
+
+                            <th>
+                                Gênero
+                            </th>
+
+                            <th>
+                                Autor
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </section>
+
+        <section class="coluna">
+            <section class="espaco">
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                <h1>Livros Que Desejo Ler</h1>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                Código
+                            </th>
+
+                            <th>
+                                Titulo
+                            </th>
+
+                            <th>
+                                Gênero
+                            </th>
+
+                            <th>
+                                Autor
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </section>
+
+        <section class="coluna">
+            <section class="espaco">
+                <button type="button" class="botao botao-cor-3">
+                    Excluir Livro
+                </button>
+
+                <button type="button" class="botao botao-cor">
+                    Adicionar Livro
+                </button>
+
+                <button type="button" class="botao botao-cor-2">
+                    Alterar Informaçẽos
+                </button>
+
+            </section>
+        </section>
+
+        <section id="modal-delet-livros">
+            <section class="modal-box">
+                <section class="modal-box-conteudo">
+                    <section class="margin-form">
+                        <h1>Deletar Livro</h1>
+                        <form name="" method="GET" action="" class="form-delet">
+                            <label for="codigo-delet">Códgo</label>
+                            <input type="text" name="codigo-delet" placeholder="Digite o codigo do livro"
+                                autocomplete="off">
+
+                            <input type="radio" name="categoria" value="possuo" id="agreement">
+                            <label for="categoria" id="agreement-label">Livro que possuo</label>
+
+                            <input type="radio" name="categoria" value="ja-li" id="agreement">
+                            <label for="categoria" id="agreement-label">Livro que ja li</label>
+
+                            <input type="radio" name="categoria" value="desejo-ler" id="agreement">
+                            <label for="categoria" id="agreement-label">Livro que Desejo ler</label>
+
+                            <input type="submit" name="" value="Deletar">
+                        </form>
+                    </section>
+                </section>
+                <section class="fechar">X</section>
+            </section>
+        </section>
+
+        <section id="modal-add-livros">
+            <section class="modal-box-add">
+                <section class="modal-box-conteudo-add">
+                    <section class="margin-form-add">
+                        <h1>Adicionar Livro</h1>
+                        <form name="" method="GET" action="" class="form-add">
+                            <section class="tudo-box">
+                                <label for="titulo-add">Titulo</label>
+                                <input type="text" name="titulo-add" placeholder="Digite o titulo do livro"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="metade-box espaco-2">
+                                <label for="genero-add">Genêro</label>
+                                <input type="text" name="genero-add" placeholder="Digite o Genêro do livro"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="metade-box">
+                                <label for="autor-add">Autor</label>
+                                <input type="text" name="autor-add" placeholder="Digite o nome do autor do livro"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="tudo-box">
+                                <input type="radio" name="categoria" value="possuo-add" id="agreement-add">
+                                <label for="categoria" id="agreement-label-add">Livro que possuo</label>
+
+                                <input type="radio" name="categoria" value="ja-li-add" id="agreement-add">
+                                <label for="categoria" id="agreement-label-add">Livro que ja li</label>
+
+                                <input type="radio" name="categoria" value="desejo-ler-add" id="agreement-add">
+                                <label for="categoria" id="agreement-label-add">Livro que Desejo ler</label>
+                            </section>
+                            <input type="submit" name="" value="Adicionar">
+                        </form>
+                    </section>
+                </section>
+                <section class="fechar-add">X</section>
+            </section>
+        </section>
+
+        <section id="modal-ati-livros">
+            <section class="modal-box-ati">
+                <section class="modal-box-conteudo-ati">
+                    <section class="margin-form-ati">
+                        <h1>Alterar informaçẽos do livro</h1>
+                        <form name="" method="GET" action="" class="form-ati">
+                            <section class="tudo-box">
+                                <label for="codigo-ati">Códgo</label>
+                                <input type="text" name="codigo-ati" placeholder="Digite o codigo do livro"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="tudo-box">
+                                <label for="titulo-ati">Titulo</label>
+                                <input type="text" name="titulo-ati" placeholder="Digite o titulo do livro"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="metade-box espaco-2">
+                                <label for="genero-ati">Genêro</label>
+                                <input type="text" name="genero-ati" placeholder="Digite o Genêro do livro"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="metade-box">
+                                <label for="autor-ati">Autor</label>
+                                <input type="text" name="autor-ati" placeholder="Digite o nome do autor do livro"
+                                    autocomplete="off">
+                            </section>
+
+                            <section class="tudo-box">
+                                <input type="radio" name="categoria" value="possuo-ati" id="agreement-add">
+                                <label for="categoria" id="agreement-label-add">Livro que possuo</label>
+
+                                <input type="radio" name="categoria" value="ja-li-ati" id="agreement-add">
+                                <label for="categoria" id="agreement-label-add">Livro que ja li</label>
+
+                                <input type="radio" name="categoria" value="desejo-ler-ati" id="agreement-add">
+                                <label for="categoria" id="agreement-label-add">Livro que Desejo ler</label>
+                            </section>
+                            <input type="submit" name="" value="Alterar Informaçẽos">
+                        </form>
+                    </section>
+                </section>
+                <section class="fechar-ati">X</section>
+            </section>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <main class="main-rodape">
+            <section class="corp">
+                <p>
+                    &copy; BookManager
+                </p>
+            </section>
+
+            <section class="redes-sociais-2">
+                <ul>
+                    <li>
+                        <a href="https://rss.com/" target="_blank">
+                            <img src="./img/rcs.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./img/facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/login?lang=pt" target="_blank">
+                            <img src="./img/twiter.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./img/instagram.png">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </footer>
+
+    <script type="text/javascript" src="./js/janela-modal.js"></script>
+
+</body>
+
+</html>

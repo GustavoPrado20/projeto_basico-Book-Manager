@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Inscreva-se | BookManager</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main class="main-menu">
+            <section class="fundo">
+                <section class="logo">
+                    <img src="./img/logo.png">
+                </section>
+
+                <section class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="https://rss.com/" target="_blank">
+                                <img src="./img/rcs.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="./img/facebook.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/login?lang=pt" target="_blank">
+                                <img src="./img/twiter.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./img/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+    </header>
+
+    <main class="coluna menu-segundario">
+        <section class="header-segundario">
+            <section class="menu">
+                <ul>
+                    <li>
+                        <a href="./entrar.html" target="_self">
+                            Entrar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./cadastro.html" target="_self">
+                            Inscreva-se
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./index.html" target="_self">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./meus-livros.html" target="_self">
+                            Meus Livros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sobre-nos-off.html" target="_self">
+                            Sobre Nós
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="busca">
+                <form name="busca" method="GET" action="">
+                    <input type="text" name="" placeholder="Pesquisar Livros" class="busca1" />
+                    <button type="submit" name="'enviarbusca'"><i class="fa fa-search fa-lg"></i></button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <main class="coluna-form">
+        <section class="centralizacao">
+            <section class="main-cadastro">
+                <h1>Cadastre-se Para acessar o Sistema</h1>
+                <form name="" method="POST" action="" id="cadastre-form">
+                    <section class="tudo-box espaco">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" placeholder="Digite seu E-mail" class="email-cad"
+                            data-min-length="3" data-riquired data-email-validate>
+                    </section>
+
+                    <section class="metade-box espaco">
+                        <label for="Name">Nome</label>
+                        <input type="text" name="name" placeholder="Digite seu Nome" class="nome-cad"
+                            data-max-legth="16" data-only-letters>
+                    </section>
+
+                    <section class="metade-box">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" placeholder="Digite seu Sobrenome" class="sobrenome-cad">
+                    </section>
+
+                    <section class="metade-box espaco">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Digite sua Senha" class="senha-cad"
+                            data-riquired data-password-validate>
+                    </section>
+
+                    <section class="metade-box">
+                        <label for="senhacon">Confirme sua senha</label>
+                        <input type="password" name="senhacon" placeholder="Corfirme sua Senha" class="senhacon-cad"
+                            data-equal="senha" data-riquired>
+                    </section>
+
+                    <section class="tudo-box">
+                        <input type="checkbox" name="agreement" id="agreement">
+                        <label for="agreement" id="agreement-label">Li e aceito os termos de uso</label>
+                    </section>
+
+                    <section class="tudo-box">
+                        <input type="submit" name="registrar" value="Registrar" id="register-cad">
+                    </section>
+                </form>
+            </section>
+        </section>
+        <p class="erro-validacao template"></p>
+    </main>
+
+    <footer class="rodape">
+        <main class="main-rodape">
+            <section class="corp">
+                <p>
+                    &copy; BookManager
+                </p>
+            </section>
+
+            <section class="redes-sociais-2">
+                <ul>
+                    <li>
+                        <a href="https://rss.com/" target="_blank">
+                            <img src="./img/rcs.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./img/facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/login?lang=pt" target="_blank">
+                            <img src="./img/twiter.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./img/instagram.png">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </footer>
+
+    <script type="text/javascript" src="./js/cadastro.js"></script>
+
+</body>
+
+</html>
