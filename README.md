@@ -9,7 +9,9 @@ O objetivo principal deste projeto era criar uma interface de usuário intuitiva
 ## Tecnologias Utilizadas
 
 HTML: Responsável pela estrutura da página.
+
 CSS: Utilizado para estilizar a interface do usuário.
+
 JavaScript: Responsável pela lógica de gerenciamento dos livros e interações com o usuário.
 
 ## Funcionalidades
